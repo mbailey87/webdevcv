@@ -1,0 +1,60 @@
+commit 7914e3ba38aff74a0bab3587d439e489523cd14b
+Author: MattBailey <mattbaileywork@gmail.com>
+Date:   Mon Jan 29 18:22:25 2024 -0700
+
+    {
+
+commit 865d29cba2a5ecfa284cef48113f99ce6a0d4065
+Author: Matt Laptop <mattbaielywork@gmail.com>
+Date:   Mon Jan 29 17:52:21 2024 -0700
+
+    finish laptop
+
+commit 071d29a28d02ba630be1138367b2e9795679c096
+Merge: fa632ee 9d85c89
+Author: Matt Laptop <mattbaielywork@gmail.com>
+Date:   Mon Jan 29 16:46:56 2024 -0700
+
+    Merge branch 'main' of github.com:mbailey87/dashboard
+
+commit fa632eea1fa9d1b143e0850ee345e50a6a3baf0e
+Author: Matt Laptop <mattbaielywork@gmail.com>
+Date:   Mon Jan 29 16:41:10 2024 -0700
+
+    ok
+
+commit 9d85c89526c9a879387f41cd7a08fe518223481a
+Author: MattBailey <mattbaileywork@gmail.com>
+Date:   Mon Jan 29 16:38:23 2024 -0700
+
+    finished
+
+commit 6a775ba02100c17796ec32c17a260aac0a9b6caa
+Author: Matt Laptop <mattbaielywork@gmail.com>
+Date:   Fri Jan 26 10:23:55 2024 -0700
+
+    only one box left
+
+commit d98cf37b6d39b8757d5a51e4b68f519f60bf6882
+Author: Matt Laptop <mattbaielywork@gmail.com>
+Date:   Thu Jan 25 20:39:17 2024 -0700
+
+    got through 40% of the css
+
+commit 3d914f239e46c90223ef3da7053c9861117951b0
+Author: MattBailey <mattbaileywork@gmail.com>
+Date:   Thu Jan 25 17:00:24 2024 -0700
+
+    finished marke up for containers
+
+commit 820a4c4387f92404b74fbb209e69911d0f0761d2
+Author: Matt Laptop <mattbaielywork@gmail.com>
+Date:   Thu Jan 25 10:25:47 2024 -0700
+
+    added ideas to images folder
+
+commit 4733e94823cee258b07a9668f7e14b3d96bfdc2c
+Author: mbailey87 <145083760+mbailey87@users.noreply.github.com>
+Date:   Thu Jan 25 10:18:07 2024 -0700
+
+    Initial commit

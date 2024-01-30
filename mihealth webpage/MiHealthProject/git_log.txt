@@ -1,0 +1,44 @@
+$ git log
+commit 81c8a379562b676fa130925ee2f9b47351d164a3 (HEAD -> main, origin/main, origin/HEAD)
+Author: MattBailey <mattbaileywork@gmail.com>
+Date:   Sun Jan 21 11:39:36 2024 -0700
+
+    final
+
+commit 75264d9238ae491c1d8837747ab7ffc1728cd811
+Merge: eb980b4 fbc00b8
+
+Samantha@DESKTOP-22986U4 MINGW64 ~/OneDrive/Desktop/mtech/mihealth/MiHealthProject (main)
+$ git log -p
+commit 81c8a379562b676fa130925ee2f9b47351d164a3 (HEAD -> main, origin/main, origin/HEAD)
+Author: MattBailey <mattbaileywork@gmail.com>
+Date:   Sun Jan 21 11:39:36 2024 -0700
+
+    final
+
+diff --git a/index.html b/index.html
+index c98822f..90c872d 100644
+--- a/index.html
+
+Samantha@DESKTOP-22986U4 MINGW64 ~/OneDrive/Desktop/mtech/mihealth/MiHealthProject (main)
+$ git\ log --pretty=format:"" > git_log.txt
+bash: git log: command not found
+
+Samantha@DESKTOP-22986U4 MINGW64 ~/OneDrive/Desktop/mtech/mihealth/MiHealthProject (main)
+$ git log --pretty=format:"" > git_log.txt
+
+Samantha@DESKTOP-22986U4 MINGW64 ~/OneDrive/Desktop/mtech/mihealth/MiHealthProject (main)
+$ git log
+commit 81c8a379562b676fa130925ee2f9b47351d164a3 (HEAD -> main, origin/main, origin/HEAD)
+Author: MattBailey <mattbaileywork@gmail.com>
+Date:   Sun Jan 21 11:39:36 2024 -0700
+
+    final
+
+commit 75264d9238ae491c1d8837747ab7ffc1728cd811
+Merge: eb980b4 fbc00b8
+
+
+
+
+

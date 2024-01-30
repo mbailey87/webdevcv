@@ -1,0 +1,157 @@
+body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container2, .container3, .container4 {
+    padding: 10px 50px ;
+}
+
+.header {
+    display: flex;
+    background-color: orange;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .right {
+    margin: 1% 5% 0 1%;
+}
+.c1Image {
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.rc1image {
+    background-image: url(../images/bengal-burger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.c2images, .c3images, .c4image {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.center {
+    margin-bottom: 1%;
+    text-align: center;
+    background-color: white;
+    padding: .5%;
+}
+.c2i, .c3i, .c4ibg {
+    width: 33%; /* Adjust width to 1/3 of the parent */
+    display: inline-block;
+    height: 500px;
+    overflow: hidden;
+    padding: 1%;
+}
+.c2i img, .c3i img, .c4ibg img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+.c2text, .c3text, .c4text {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+}
+.c2t, .c4t {
+    width: 33%;
+    text-align: center;
+}
+.c3t {
+    background-color: white;
+    padding: 5px;
+}
+.c3i {
+    width: 25%;
+    height: 400px;
+}
+.footer {
+    display: flex;
+    padding: 2%;
+    background-color: orange;
+    justify-content: space-between;
+}
+.copyright {
+    text-align: center;
+    margin-top: 1%;
+}
+h1, h2 {
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 1%;
+}
+.container3{
+    background-color: rgb(182, 194, 199);
+}
+.c2header, .c3header, .c4header {
+    padding: 1% 2%;
+}
+.c4ibg {
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(140, 140, 151);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.checked {
+    color: red;
+}
+.recipeStats {
+    background-color: rgb(190, 190, 203);
+    padding: 2%;
+}
+.stat {
+    padding-right: 2%;
+
+}
+.review {
+    text-align: center;
+    padding: 2%;
+}
+.rc2Text {
+    background-color: rgb(190, 190, 203);
+    padding: 1% 3%;
+    text-align: center;
+}
+.rcontainer3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ingredients, .directions {
+    width: 50%;
+    padding: 1% 2%;
+}
+.ingredients {
+    width:30%;
+}
+input {
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    width: 10%;
+}
+.brn-print {
+    background-color: rgb(216, 216, 216);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

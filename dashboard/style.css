@@ -1,0 +1,432 @@
+body, .flexcontainer {
+  margin: 0;
+  padding: 0;
+  background-color: #2d2d2d;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.flexcontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+.material-symbols-outlined {
+  background-color: rgb(178, 238, 99);
+  border-radius: 50%;
+  color: rgb(29, 29, 29);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.container1, .container2, .cards, .blackheader, .overview, .blackcard, .greencard, .stat, .gcardbot, .gcardtext {
+  margin: 0.5em;
+  border-radius: 1em;
+}
+
+.container1, .dashboard, .dash1, .dash2, .stat, .split1, .blackcard, .greencard, .botboxsmall, .smalltop, .smallbot, .botboxmain, .split2, .bottom, .top, .stat3, .gradiant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stat, .split2, .split1, .top, .bottom, .botboxmain, .botboxsmall, .smalltop, .smallbot {
+  border-radius: 1em;
+}
+
+.blackcard, .container1, .top, .bottom, .split1 {
+  background-color: rgb(29, 29, 29);
+  color: #d6d6d6;
+}
+
+.dashcenter {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  width: 25vw;
+  max-width: 20em;
+  min-width: 20em;
+  margin-right: 0;
+}
+.container1 .c1head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 97%;
+  height: 30%;
+  min-height: 20em;
+}
+.container1 .c1head .logo {
+  height: 20%;
+  border-bottom: 2px solid #2d2d2d;
+}
+.container1 .c1head .dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 75%;
+  height: 76%;
+}
+.container1 .c1head .dashboard .dash1, .container1 .c1head .dashboard .dash2 {
+  justify-content: space-around;
+  height: 35%;
+  width: 75%;
+  border-bottom: 2px solid #2d2d2d;
+  font-size: 1.25em;
+}
+.container1 .c1head .dashboard .dash1 .dashicon, .container1 .c1head .dashboard .dash2 .dashicon {
+  background-color: rgb(29, 29, 29);
+  color: #d6d6d6;
+  font-size: 0.75em;
+}
+.container1 .c1head .dashboard .dash2 {
+  height: 75%;
+  border-bottom: none;
+}
+.container1 .profile {
+  align-self: center;
+  flex-direction: column;
+  min-height: 15em;
+  width: 75%;
+  height: 15%;
+}
+
+.container2 {
+  width: 100%;
+  margin: 0;
+  min-width: 70em;
+  min-height: 50em;
+}
+.container2 .cards {
+  margin: 0;
+  height: 35%;
+  display: flex;
+  min-height: 10em;
+}
+.container2 .cards .blackcard, .container2 .cards .greencard {
+  width: 50%;
+  min-height: 75%;
+}
+.container2 .cards .blackcard {
+  text-align: center;
+}
+.container2 .cards .blackcard .center {
+  font-family: "Smooch", cursive;
+  color: rgb(178, 238, 99);
+  font-size: 6em;
+  height: 70%;
+}
+.container2 .cards .blackcard .group {
+  background-color: rgb(29, 29, 29);
+  color: #8b8b8b;
+  font-size: 0.75em;
+}
+.container2 .cards .greencard {
+  background-color: rgb(178, 238, 99);
+  font-size: 1.5em;
+}
+.container2 .cards .greencard .order {
+  background-color: rgb(29, 29, 29);
+  color: rgb(178, 238, 99);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+.container2 .cards .greencard .order .inventory {
+  background-color: rgb(29, 29, 29);
+  color: rgb(178, 238, 99);
+}
+
+.overview {
+  width: 99%;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #d6d6d6;
+}
+.overview .ot1 {
+  width: 50%;
+  align-self: center;
+}
+
+.statistics {
+  height: 62%;
+  display: flex;
+}
+.statistics .stat {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-content: space-between;
+}
+.statistics .stat .split2 {
+  height: 100%;
+}
+.statistics .stat .top {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0.4em;
+  justify-content: space-between;
+}
+.statistics .stat .bottom {
+  padding: 0.5em 0;
+  justify-content: space-between;
+  height: 33%;
+  align-content: space-between;
+}
+.statistics .stat .bottom .button {
+  text-align: end;
+}
+
+.name, .statheader, .button, .box, .btext, .task, .taskbar, .arrow {
+  margin: 0 5px 0 5px;
+}
+
+.btext {
+  margin-top: 2%;
+  font-size: 2em;
+  justify-content: space-around;
+}
+
+.name, .statheader, .task, .gcardbot, .blackheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  font-size: 1.05em;
+}
+
+.statheader {
+  padding: 0 5px 0 5px;
+}
+
+.product {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.studentnames {
+  flex-grow: 1;
+}
+
+.gradiant {
+  border-radius: 1em;
+  background: rgb(173, 173, 173);
+  background: linear-gradient(0deg, rgba(173, 173, 173, 0.6152836134) 0%, rgba(29, 29, 29, 0) 38%);
+  opacity: 80%;
+}
+
+.name, .smalltext {
+  font-size: 75%;
+}
+
+.task {
+  font-size: small;
+  color: #8b8b8b;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-around;
+  height: 75%;
+}
+.bars .percent {
+  font-size: x-small;
+  background-color: rgb(178, 238, 99);
+  color: black;
+  border-radius: 3px;
+}
+
+.bar1, .bar2, .bar3, .bar5, .smalltop, .smallbot {
+  align-self: flex-end;
+  text-align: center;
+}
+
+.bar1 {
+  height: 20%;
+  font-size: 2em;
+}
+
+.bar2, .bar3, .bar4, .bar5 {
+  width: 2em;
+  background-color: #2d2d2d;
+  margin: 0 2px 5px 2px;
+  border-radius: 7px;
+}
+
+.bar2 {
+  height: 35%;
+}
+
+.bar3 {
+  height: 45%;
+}
+
+.bar5 {
+  height: 60%;
+}
+
+.plus {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bar4 {
+  height: 75%;
+  background-color: rgb(178, 238, 99);
+}
+
+.green {
+  color: rgb(178, 238, 99);
+}
+
+.arrow {
+  background-color: rgb(178, 238, 99);
+  color: black;
+}
+
+.taskbar {
+  width: 89%;
+  height: 2px;
+  background-color: #2d2d2d;
+}
+.taskbar .greentaskbar {
+  width: 80%;
+  height: 2px;
+  background-color: rgb(178, 238, 99);
+}
+
+.gray {
+  color: #8b8b8b;
+  font-size: x-small;
+}
+
+.split1 {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.graph img {
+  border-radius: 1em;
+  width: 100%;
+  max-height: 90%;
+}
+
+.weekpoints {
+  color: #d6d6d6;
+  font-size: x-small;
+}
+
+.weektext {
+  font-size: 5px;
+  color: #8b8b8b;
+}
+
+.capsule {
+  min-width: 2em;
+  font-size: 7px;
+  width: 7em;
+  padding: 1.5%;
+  color: rgb(29, 29, 29);
+  background-color: rgb(178, 238, 99);
+  border-radius: 1em;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+.capsule .blackcapsule {
+  color: rgb(178, 238, 99);
+  padding: 0 0.5em;
+  background-color: rgb(29, 29, 29);
+  border-radius: 1em;
+  margin: 0 0 5px 0 5px 0 0 5px 0 5px;
+}
+
+.box {
+  width: 60%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.box .graybox, .box .greenbox {
+  width: 5px;
+  height: 5px;
+  margin-top: 3%;
+  background-color: #8b8b8b;
+  border-radius: 1px;
+}
+.box .greenbox {
+  background-color: rgb(178, 238, 99);
+}
+
+.stat3 {
+  width: 100%;
+  height: 33%;
+  background-color: rgb(29, 29, 29);
+  border-radius: 1em;
+  color: #d6d6d6;
+}
+
+.botbox, .topbox {
+  margin-bottom: 0 5px 0 5px;
+  height: 28%;
+}
+
+.stat3header {
+  padding-top: 1%;
+}
+
+.midbox {
+  height: 40%;
+}
+
+.botbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2d2d2d;
+}
+
+.botboxmain {
+  width: 70%;
+  height: 98%;
+  background-color: rgb(29, 29, 29);
+  font-size: smaller;
+  padding-top: 1%;
+}
+
+.botboxsmall {
+  width: 27%;
+  height: 100%;
+}
+.botboxsmall .smalltop, .botboxsmall .smallbot {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29, 29, 29);
+  height: 48%;
+  width: 100%;
+  font-size: smaller;
+}
+.botboxsmall .calender {
+  background-color: rgb(29, 29, 29);
+  color: rgb(178, 238, 99);
+  font-size: 2em;
+  align-self: center;
+}
+.botboxsmall .smallbot {
+  background-color: rgb(178, 238, 99);
+  color: rgb(29, 29, 29);
+}/*# sourceMappingURL=style.css.map */

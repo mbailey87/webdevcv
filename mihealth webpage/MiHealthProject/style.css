@@ -1,0 +1,156 @@
+body, div, span, h1, h2, h3, p {
+    font-size: larger;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-style: normal;
+    display: block;
+   
+}
+body {
+    background-color: gray;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png);
+}
+.red {
+    color: rgb(197, 0, 0);
+}
+.green {
+    color: rgb(30, 190, 30);
+}
+h1 {
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    padding-left: 1%;
+}
+.link {
+    width: 85%;
+    text-align: end;
+}
+h3 {
+    font-size: xx-large;
+}
+p {
+    font-size: medium;
+}
+.container {
+    display: flex; /* Use flexbox for easier alignment */
+    justify-content: flex-end; /* Align children to the end (right) */
+    width: 100%; /* Full width to properly align children */
+    height: 75vh; /* Or a specific height if you want */
+    /* Add any additional styling you need for the container */
+    margin-top: 2%;
+    position: relative;
+}
+.text {
+    width: 25%;
+    height: auto;
+    align-self: center;
+    position: relative;
+    margin-left: 1%;
+}
+.arrow {
+    width: 105px;
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+  }
+ 
+  .line {
+    margin-top: 10px;
+    width: 75px;
+    background: black;
+    height: 8px;
+    float: left;
+  }
+ 
+  .point {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 30px solid black;
+    float: right;
+  }
+#images {
+    width: 75%; /* Taking up two-thirds of the width */
+    height: 80vh; /* Or 100% if you want it to take the full height */
+    margin-left: auto; /* This will push the div to the right */
+    position: relative; /* Keep the relative positioning for the absolute children */
+    /* Remove the float property since it's not needed with flexbox */
+    margin-right: 5%;
+}
+.image {
+    width: 33.33%; /* Adjust width to 1/3 of the parent */
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Inline-block is not needed for absolute positioning */
+}
+
+
+.apple .image {
+    left: 0; /* Align this div to the far left */
+}
+
+
+.pasta .image {
+    left: 33.33%; /* Align this div to start at one third of the parent's width */
+    padding-left: 1%;
+}
+
+
+.shrimp .image {
+    left: 66.66%; /* Align this div to start at two thirds of the parent's width */
+    padding-left: 2%;
+}
+
+
+.breakfast, .fresh, .sweet, .lunch, .delicious, .dinner {
+    position: absolute;
+    width: 100%;
+    font-size: 75%;
+    text-align: right;
+    background-color: rgb(99, 176, 22);
+    color: white;
+    right: -1%;
+    bottom: 2%;
+    z-index: 999;
+}
+.breakfast, .lunch, .dinner{
+    padding-left: 2%;
+    padding-right: 1%;
+}
+.fresh, .breakfast {
+    right: 68%;
+}
+
+
+.sweet, .lunch{
+   right: 33%;
+}
+
+
+.delicious, .sweet, .fresh {
+    bottom: 10%;
+}
+
+
+.breakfast, .lunch, .dinner {
+    width: auto;
+}
+
+
+.fresh, .sweet, .delicious {
+    width: auto;
+    bottom: 5%;
+    text-align: right;
+    background-color: beige;
+    color: black;
+    height: auto;
+    margin-bottom: .2%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
